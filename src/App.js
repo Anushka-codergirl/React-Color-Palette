@@ -8,22 +8,26 @@ export default function App() {
     "#fedcba",
     "#defabc",
     "#bcaefd",
-    "#123abc",
+    "#FBE7C6",
+    "#75E6DA",
+    "#D4F1F4",
+    "#05445E",
+    "#189AB4",
     "#456def",
-    "#321cba",
+    "#B4F8C8",
     "#FFAEBC",
     "#d8f1f4",
     "#edf324",
     "#aa1111",
     "#00ff00",
     "#ff040b",
-    "#d9f2f5",
+    "#59981A",
     "#def346",
     "#ba2262",
     "#010b13",
     "#d8f000",
-    "#e00024",
-    "#feafea"
+    "#ECF87F",
+    "#3F4122"
   ];
 
   const [background, setBackground] = useState("#abcdef");
