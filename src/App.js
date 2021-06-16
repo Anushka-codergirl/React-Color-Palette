@@ -4,8 +4,8 @@ import "./styles.css";
 
 export default function App() {
   const colors = [
-    "#abcdef",
-    "#fedcba",
+    "#ABCDEF",
+    "#FEDCBA",
     "#defabc",
     "#bcaefd",
     "#FBE7C6",
@@ -18,19 +18,19 @@ export default function App() {
     "#FFAEBC",
     "#d8f1f4",
     "#edf324",
-    "#aa1111",
+    "#AA1111",
     "#00ff00",
     "#ff040b",
     "#59981A",
     "#def346",
-    "#ba2262",
+    "#BA22F2",
     "#010b13",
     "#d8f000",
     "#ECF87F",
-    "#3F4122"
+    "#FFFFFF"
   ];
 
-  const [background, setBackground] = useState("#abcdef");
+  const [background, setBackground] = useState("#ABCDEF");
   const [current, setCurrent] = useState(null);
 
   useEffect(() => {
